@@ -3,6 +3,14 @@
 <head>
 <title>GADIBECHO.COM</title>
 <style>
+  .myVideo {
+  position: down;
+  background-size: cover;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
     .form-box {
 			width: 500px; 
 			padding: 20px;
@@ -40,7 +48,19 @@
 			background-position: center;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
+      animation: blink 5s infinite;
 		}
+    @keyframes blink {
+			0% {
+				background-image: url("https://static.vecteezy.com/system/resources/previews/026/702/777/original/illustration-of-car-for-sale-icon-in-dark-color-and-white-background-vector.jpg");
+			}
+			50% {
+				background-image: url("https://d2uqhpl0gyo7mc.cloudfront.net/small_Cars_and_SU_Vs_Discontinued_in_India_in_2023_a60abc4a1a.png");
+			}
+			100% {
+				background-image: url("https://d2uqhpl0gyo7mc.cloudfront.net/small_Cars_and_SU_Vs_Discontinued_in_India_in_2023_a60abc4a1a.png");
+			}
+    }
     </style>
 </head>
 <body>
@@ -56,7 +76,6 @@
 </marquee>
 <p2>please check the current new price of <br> your car</p2>
 <a href="https://www.cardekho.com/newcars"><br>Click to check price</a>
-<br>
-<img src="https://illustoon.com/photo/thum/4842.png">
+</div>
 </body>
 </html>
